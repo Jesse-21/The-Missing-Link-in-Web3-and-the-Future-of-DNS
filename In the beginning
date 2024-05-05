@@ -1,0 +1,39 @@
+I have, for most of my time learning web3 and the ins and outs of how it all works, hit many road blocks. Many.
+But I continue this path, unsure if I will ever find the answer I look for. That answer still evades me at the time of writing this first file in what I intend to be a sort of journal with my thoughts
+and theories and tests conducted.  Maybe it will serve a purpose for someone else just starting on the same work or people who are almost there and a part of what i have created
+or a thought I had may open a door they once never saw.  Or it may all be useless.  Who knows.  I dont.  But i know I must continue.  
+
+The mindset of a founding type is different.  22 hours a day I am working on something and this is part of that day,  everyday,  until I find the solution, someone else finds it, or I cease to breath.
+I think knowing your limits and understanding that we are only human is something everyone needs to go into this knowing before you begin.  otherwise you will push too hard and burn out or worse.
+Be safe and take care of yourselves, push yourself but know your limits and know when its time to take a break and when to eat, and dammit drink water.
+If you are not able to carry the torch of your own mission, how can you be sure someone else will?  So make sure you are still able to until nature decides you cant.  dont cause it to stop for being stupid.
+Moving on....
+
+Web 2 and web3 are currently being linked using special browsers, browser plugins/extensions, or proxies served by various organizations with various levels of complexities.
+The solution evades us.  We are thinking in terms of the 1980s dns that we currently are bogged down with.  the old system that lags and prevents us from moving beyond to find 
+the future that we dream of.   How can we find the path if we walk it with our heads down looking at the ground?  
+
+To find what we search for, we need to hit pause, understand that reusing what is here might patch something but it wont replace something.  Reuse isnt replace.
+
+For now what I think we will need to do is find a solution that will build a bridge between both webs, to allow time for the building of something new and something fresh. Ridding ourselves of 
+our safeplace of old.  If we all refuse to look beyond arms length we will never find the solution.  But... we will need that bridge to allow function during the transition to the new.
+
+My first idea I have started building is a basic hybrid dns that would fuction similar to the currently used methods.  Proxies or resolvers, used to route web2 and web3 accordingly.  
+Doing so might work for the short term but the massive amount of traffic that would be required to pass through it would bog down even the fastest resolver written in the leanest most universal code structure.
+
+I have built a hybrid DNS resolver already.  4 actually.  one I am testing uses some of the same ideas as web3 domains use with solidity on chain,  backed with all the normal languages we use today 
+to try to patch together things one piece at a time.
+
+The 4th I decided to make more lean.   only 3 or 4 files.  mostly written in python as the primary language, a json file,  another python file for giving option for auto installing dependencies to the person
+tagged with installing it on whatver level it makes it to, and  one supporting file.  I wanted 1 single file.... to be small,  least amount of code as possible,  easy to install, able to install without
+puting anything to halt, able to function most anywhere due to the language being so widespread and easy to plug into almost any dns system currently being used.  python wasnt my first choice.
+its not the best if you need something with tons of connections at once.  it gets overloaded.  hard to scale.
+
+At the moment i am testing using flask, ipfs, python, js, and our current dns structure to see if I can decentralize the process more so,  and use the chains as modualarized pivot points working in unison
+with a central hub chain (still decentralized and public but needed due to how our current structure of dns works) and heres the fun part, that most havent really tried yet...
+
+Ordinal Theory and/or base64.  I have yet to decide on one or the other and the time of this writing.  
+
+Both require computing power in some form or fashion, and that makes it hard to push majority of this data heavy stuff onto ipfs, as ipfs is limited to storage of static stuff.
+
+Let me remind you that I am selftaught here,... (had to stop writing today.  irl stuff.  i will continue this again tomrrow or next day if you read up til now)
